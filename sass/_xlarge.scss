@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+
+    .header {
+        height: 75vh;
+        
+        &__contentContainer {
+          &--text {
+            font-size: 50px;
+            line-height: 50px;
+          }
+    
+          &--title {
+            text-transform: uppercase;
+            font-size: 100px;
+            line-height: 100px;
+          }
+        }
+
+        &__logo {
+            padding: 12px 15px 18px;
+            font-size: 20px;
+          }
+      }
+}  

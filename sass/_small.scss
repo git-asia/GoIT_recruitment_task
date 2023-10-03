@@ -1,0 +1,50 @@
+@media (max-width: 575px) {
+  html {
+    font-size: 12px;
+  }
+
+  .wrapper {
+    max-width: 500px;
+    padding: 0 5px;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    width: 100%;
+    height: 60vh;
+
+    &__contentContainer {
+      &--text {
+        font-size: 25px;
+        line-height: 25px;
+      }
+
+      &--title {
+        text-transform: uppercase;
+        font-size: 45px;
+        line-height: 50px;
+      }
+    }
+  }
+
+  .content {
+    &__body {
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+
+      &--service {
+        grid-template-rows: 1fr;
+        margin-bottom: 15px;
+      }
+    }
+
+    &__description {
+      margin-top: 0;
+    }
+
+    .card__info {
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+  }
+}
