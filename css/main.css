@@ -83,8 +83,8 @@
   color: #999999;
 }
 .content__card {
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   position: relative;
 }
 .content__cardImageContainer {
