@@ -12,18 +12,26 @@
   .header {
     width: 100%;
     height: 60vh;
-
+    
     &__contentContainer {
+      
       &--text {
         font-size: 25px;
         line-height: 25px;
       }
-
+      
       &--title {
         text-transform: uppercase;
         font-size: 45px;
         line-height: 50px;
       }
+      
+      &--button {
+        margin-top: 40px;
+      }
+    }
+    &__nav {
+      margin-bottom: 30px;
     }
   }
 
