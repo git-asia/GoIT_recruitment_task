@@ -518,6 +518,7 @@ span {
   }
   .header {
     width: 100%;
+    min-height: 400px;
   }
   .header__contentContainer--text {
     font-size: 25px;
