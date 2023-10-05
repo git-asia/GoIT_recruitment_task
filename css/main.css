@@ -454,6 +454,7 @@ span {
   }
   .header {
     height: 70vh;
+    min-height: 500px;
   }
   .header__logo {
     padding: 5px 15px 18px;
@@ -547,5 +548,14 @@ span {
   .content .card__info {
     margin-top: 10px;
     margin-bottom: 15px;
+  }
+  .footer {
+    width: 90%;
+  }
+  .footer input {
+    width: unset;
+  }
+  .footer__subscribe {
+    padding: 8px 15px;
   }
 }/*# sourceMappingURL=main.css.map */

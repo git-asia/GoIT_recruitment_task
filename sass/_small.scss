@@ -54,4 +54,16 @@
       margin-bottom: 15px;
     }
   }
+
+  .footer {
+    width: 90%;
+
+    input {
+      width: unset;
+    }
+
+    &__subscribe {
+      padding: 8px 15px;
+    }
+  }
 }
